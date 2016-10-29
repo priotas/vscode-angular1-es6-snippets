@@ -13,7 +13,7 @@
 			"",
 			"export default component;"
 		],
-		"description": "Angular 1 component"
+		"description": "Angular 1 component ☠"
 	},
 
 	"Angular1 Component Controller": {
@@ -29,7 +29,8 @@
 			"]);",
 			"",
 			"export default MODULE_NAME;"
-		]
+		],
+		"description": "Angular 1 component controller 😮"
 	},
 
 	"Angular1 Module": {
@@ -45,7 +46,8 @@
 			"]);",
 			"",
 			"export default MODULE_NAME;"
-		]
+		],
+		"description": "Angular 1 module 😴"
 	},
 
 	"Angular1 Factory": {
@@ -62,6 +64,7 @@
 			"};",
 			"",
 			"export default ${name}Factory;"
-		]
+		],
+		"description": "Angular 1 factory 😱"
 	}
 }
