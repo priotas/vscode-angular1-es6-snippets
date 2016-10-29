@@ -1,0 +1,67 @@
+{
+	"Angular1 Component": {
+		"prefix": "acom",
+		"body": [
+			"import controller from './${name}.controller';",
+			"import template from './${name}.html';",
+			"",
+			"let component = {",
+			"    controller,",
+			"    template,",
+			"    bindings: {}",
+			"};",
+			"",
+			"export default component;"
+		],
+		"description": "Angular 1 component"
+	},
+
+	"Angular1 Component Controller": {
+		"prefix": "acon",
+		"body": [
+			"import angular from 'angular';",
+			"import uiRouter from 'angular-ui-router';",
+			"",
+			"const MODULE_NAME = '${name}';",
+			"",
+			"angular.module(MODULE_NAME, [",
+			"	uiRouter",
+			"]);",
+			"",
+			"export default MODULE_NAME;"
+		]
+	},
+
+	"Angular1 Module": {
+		"prefix": "amod",
+		"body": [
+			"import angular from 'angular';",
+			"import uiRouter from 'angular-ui-router';",
+			"",
+			"const MODULE_NAME = '${name}';",
+			"",
+			"angular.module(MODULE_NAME, [",
+			"    uiRouter",
+			"]);",
+			"",
+			"export default MODULE_NAME;"
+		]
+	},
+
+	"Angular1 Factory": {
+		"prefix": "afac",
+		"body": [
+			"let ${name}Factory = function () {",
+			"  const ${value} = {};",
+			"",
+			"  let get${Value} = () => {",
+			"    return ${value};",
+			"  };",
+			"",
+			"  return { get${Value}  };",
+			"};",
+			"",
+			"export default ${name}Factory;"
+		]
+	}
+}

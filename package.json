@@ -1,0 +1,11 @@
+{
+  "name": "vscode-angular1-es6-snippets",
+  "version": "0.0.1",
+  "description": "vscode-angular1-es6-snippets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "madflow",
+  "license": "PUBLIC DOMAIN"
+}
