@@ -5,7 +5,7 @@
 			"import controller from './${name}.controller';",
 			"import template from './${name}.html';",
 			"",
-			"let component = {",
+			"const component = {",
 			"    controller,",
 			"    template,",
 			"    bindings: {}",
@@ -70,10 +70,10 @@
 	"Angular1 Factory": {
 		"prefix": "afac",
 		"body": [
-			"let ${name}Factory = function () {",
+			"const ${name}Factory = function () {",
 			"  const ${value} = {};",
 			"",
-			"  let get${Value} = () => {",
+			"  const get${Value} = () => {",
 			"    return ${value};",
 			"  };",
 			"",
